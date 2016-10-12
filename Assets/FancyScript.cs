@@ -6,4 +6,9 @@ public class FancyScript : MonoBehaviour
     {
         Debug.Log("Fancy Script Startup");
     }
+
+    private void Update()
+    {
+        Debug.Log("With Updates");
+    }
 }
