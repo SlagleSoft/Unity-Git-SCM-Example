@@ -1,0 +1,12 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Mason Mize
+	email = mason.mize@slaglesoft.com
+[core]
+	excludesfile = ~/.gitignore_global
+[mergetool "unityyamlmerge"]
+    trustExitCode = false
+    cmd = 'C:/Program Files/Unity/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
