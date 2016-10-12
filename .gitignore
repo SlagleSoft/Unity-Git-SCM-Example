@@ -1,0 +1,36 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+
+[Ee]xported[Oo]bj/
+.vs/
+.consulo/
+*.userprefs
+*.unityproj
+*.booproj
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.pidb
+*.svd
+
+*.pidb.meta
+*.apk
+*.unitypackage
+*.stackdump
+sysinfo.txt
+
+
+# OS generated #
+# this should go in global ignore #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
